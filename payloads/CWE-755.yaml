@@ -1,1 +1,3 @@
+# This causes a bug in all versions of PyYAML up to 5.4.1 in the parsing of Float variables
+# The bug raises an instance of ValueError rather then YAMLError
 ._
